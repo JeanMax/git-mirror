@@ -1,0 +1,7 @@
+[Unit]
+Description=Mirror a list of git repo
+
+[Service]
+Type=simple
+User=mc
+ExecStart=/home/mc/git-mirror/git-mirror.sh

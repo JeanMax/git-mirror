@@ -1,0 +1,12 @@
+[Unit]
+Description=Runs git-mirror.service every few hours
+Requires=network.target
+After=network.target
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=4h
+Unit=git-mirror.service
+
+[Install]
+WantedBy=timers.target

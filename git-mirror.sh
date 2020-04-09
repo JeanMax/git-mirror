@@ -8,6 +8,7 @@ REPOS=(
     "WebSwarm   git@git.sr.ht:~jean-max/WebSwarm   git@github.com:JeanMax/WebSwarm"
     "swarm      git@git.sr.ht:~jean-max/swarm      git@github.com:JeanMax/swarm"
     "SpaceTripX git@git.sr.ht:~jean-max/SpaceTripX git@github.com:JeanMax/SpaceTripX"
+    "git-mirror git@git.sr.ht:~jean-max/git-mirror git@github.com:JeanMax/git-mirror""
 )
 
 REPOS_DIR=$HOME/mirrors
